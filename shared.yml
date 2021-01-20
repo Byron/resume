@@ -17,19 +17,19 @@ companies:
     url: http://keybase.io/byronbates
     image_url: ./assets/profile-github.jpeg
   open-source-developer:
-    name: open-source software development
+    name: Open-Source Software Development
     url: https://www.rust-lang.org
     image_url: ./assets/rust-logo.png
   open-source-developer-golang:
-    name: open-source software development
+    name: Open-Source Software Development
     url: https://golang.org
     image_url: ./assets/golang.jpg
   open-source-developer-python:
-    name: open-source software development
+    name: Open-source Software Development
     url: https://python.org
     image_url: ./assets/python.png
   open-source-developer-c++:
-    name: open-source software development
+    name: Open-Source Software Development
     url: http://www.cplusplus.com
     image_url: ./assets/c++.png
   bfc:

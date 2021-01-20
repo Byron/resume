@@ -14,15 +14,44 @@ sections:
   - name: experience
     title: Professional Experience
     positions:
-      - position: Freelance Technical Analyst
+      - position: Freelance Software Developer and Analyst
         location: Xi'an, China
         date_range:
           from: Jun 2020
           to: now
           duration: 8 months (part-time)
         description: |
-          Analyse projects for technical feasibility and help running software projects.
-        company: omstudios
+          Sebastian provides services as technical analyst and with software development.
+        company: freelance
+        sections:
+        sections:
+          - name: projects
+            title: Analysis and Software Development
+            positions:
+              - position: Web-AR Experience for Major German Supermarket Chain
+                date_range:
+                  from: Jun 2020
+                  to: Jan 2021
+                description: |
+                  Analyse project for technical feasibility and keep software development on track using GitHub Projects and Issues.
+
+                  The techstack was TypeScript, along with supporting infrastructure scripts to power GitHub Actions for CI/CD.
+                company: omstudios
+          - name: oss-projects
+            title: Personal Software Projects
+            positions:
+              - position: Gitoxide
+                date_range:
+                  from: Mar 2020
+                  to: now
+                proof:
+                  all:
+                    kind: oss-project
+                    url: https://github.com/Byron/gitoxide
+                    tooltip: Git in Rust
+                description: |
+                  An idiomatic, lean, fast & safe pure Rust implementation of Git
+                company: open-source-developer
       - position: Senior Developer Consultant
         location: Xi'an, China
         date_range:
@@ -46,21 +75,6 @@ sections:
                   The techstack involved React, TypeScript, Redux in the frontend, Java and Spring in the backend, as well as Docker to assure reproducability on CI/CD.
                 kind: company-name group-trailer
                 company: tw-small-business-support
-          - name: oss-projects
-            title: Personal Software Projects
-            positions:
-              - position: Gitoxide
-                date_range:
-                  from: Mar 2020
-                  to: now
-                proof:
-                  all:
-                    kind: oss-project
-                    url: https://github.com/Byron/gitoxide
-                    tooltip: Git in Rust
-                description: |
-                  An idiomatic, lean, fast & safe pure Rust implementation of Git
-                company: open-source-developer
       - position: Senior Developer Consultant
         location: Hamburg, Germany
         date_range:
