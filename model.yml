@@ -14,14 +14,14 @@ sections:
   - name: experience
     title: Professional Experience
     positions:
-      - position: Freelance Software Developer and Analyst
+      - position: Freelance Software Developer
         location: Xi'an, China
         date_range:
           from: Jun 2020
           to: now
           duration: 8 months (part-time)
         description: |
-          Sebastian provides services as technical analyst and with software development.
+          Sebastian provides services as software developer and technical analyst.
         company: freelance
         sections:
         sections:
@@ -35,7 +35,7 @@ sections:
                 description: |
                   Analyse project for technical feasibility and keep software development on track using GitHub Projects and Issues.
 
-                  The techstack was TypeScript, along with supporting infrastructure scripts to power GitHub Actions for CI/CD.
+                  The techstack was TypeScript, along with supporting infrastructure scripts to power GitHub Actions for CI and CD onto Azure.
                 company: omstudios
           - name: oss-projects
             title: Personal Software Projects
@@ -72,7 +72,7 @@ sections:
                 description: |
                   Sebastian contributed his full breadth of experience from the very inception of the project, establishing himself as mediator between Australia and China, technical analyst to unblock complex stories as well as technical leader to get the project off the ground driving a setup for CI/CD supporting both frontend and backend tests.
 
-                  The techstack involved React, TypeScript, Redux in the frontend, Java and Spring in the backend, as well as Docker to assure reproducability on CI/CD.
+                  The techstack involved React, TypeScript, Redux in the frontend, Java and Spring in the backend, as well as Docker to assure reproducability on CI and CD onto AWS.
                 kind: company-name group-trailer
                 company: tw-small-business-support
       - position: Senior Developer Consultant
