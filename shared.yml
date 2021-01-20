@@ -1,0 +1,413 @@
+person:
+  name: Sebastian Thiel
+  occupation: Software Engineer
+  image_url: ./assets/profile.jpeg
+  relationship_state: single
+  location: Hamburg, Germany
+  summary: |
+    Sebastian is an independent, self-taught Open-Source Software Engineer with old roots in the visual effects industry. During that time, he implemented and supported the Autodesk Maya integration of Scanline's academy awarded FlowLine Fluid Simulation Software.
+    
+    More recently, he worked in agile teams to build the right products iteratively and on the full stack ranging from platform over backend to frontend.
+
+    He believes in test-driven development, and aims at producing highly maintainable, long-lasting and secure code. Workflow automation, may it be his own or those of others, are among his greatest strengths. Providing best support for his work environment is among his highest goals.
+
+companies:
+  freelance:
+    name: Self Employed
+    url: http://keybase.io/byronbates
+    image_url: ./assets/profile-github.jpeg
+  open-source-developer:
+    name: open-source software development
+    url: https://www.rust-lang.org
+    image_url: ./assets/rust-logo.png
+  open-source-developer-golang:
+    name: open-source software development
+    url: https://golang.org
+    image_url: ./assets/golang.jpg
+  open-source-developer-python:
+    name: open-source software development
+    url: https://python.org
+    image_url: ./assets/python.png
+  open-source-developer-c++:
+    name: open-source software development
+    url: http://www.cplusplus.com
+    image_url: ./assets/c++.png
+  bfc:
+    name: Berliner Film Companie
+    image_url: ./assets/bfc.jpg
+  scanline:
+    name: CA Scanline
+    url:  https://www.scanlinevfx.com
+    image_url: ./assets/any-company.png
+  tnt:
+    name: Toons'n'Tales
+    url:  https://www.linkedin.com/search/results/all/?keywords=Toons%20%27N%27%20Tales%20Filmproduktion%20GmbH
+    image_url: ./assets/tnt.jpg
+  redi:
+    name: ReDI School of Digital Integration
+    url: https://www.redi-school.org
+    image_url: ./assets/redi.png
+    cause: Economic Empowerment
+  twh:
+    name: Tiele-Winckler-Haus GmbH
+  whiteshark:
+    name: WhiteShark AB
+    image_url: ./assets/any-company.png
+  flowline:
+    name: FlowLine GmbH
+    url: https://www.scanlinevfx.com
+    image_url: ./assets/flowline.png
+  omstudios:
+    name: OMSTUDIOS Berlin
+    url: https://omstudios.de
+    image_url: ./assets/omstudios.png
+  trixter:
+    name: Trixter Film GmbH
+    url: https://www.trixter.de
+    image_url: ./assets/trixter.png
+  thoughtworks:
+    name: ThoughtWorks 
+    url: https://www.thoughtworks.com
+    image_url: ./assets/thoughtworks.png
+  justice-department:
+    name: German Department of Justice 
+    image_url: ./assets/justiz_logo_de.png
+    url: http://bundesjustizamt.de
+  keybase:
+    name: Keybase.io
+    image_url: ./assets/keybase.png
+  germany:
+    name: Federal Republic of Germany
+    image_url: ./assets/passport-front.jpg
+  highschool:
+    name: Paulus-Praetorius Gymnasium
+    url: http://praetoriusgymnasium.de
+    image_url: ./assets/highschool.jpg
+    cause: High School
+  primaryschool:
+    name: 3rd Primary School Bernau
+    cause: Primary School
+  studioline:
+    name: STUDIOLINE Photography
+    url: https://online-world.studioline.de
+    image_url: ./assets/studioline.png
+  tw-cash&carry:
+    name: Major Cash & Carry Logistics Company
+  tw-coffee-retailer:
+    name:  German Chain of Coffee Retailers
+  tw-car-rental:
+    name: European Car Rental Company
+  tw-university:
+    name: ThoughtWorks University
+
+languages:
+  - name: German
+    level: Native proficiency
+  - name: English
+    level: Full professional proficiency
+
+glossary:
+  - name: Visual Effects
+    match: visual effects
+    anchor: visual-effects
+    tooltip: Creation of images after these were shot by camera, usually using computers
+    description: |
+      The process by which imagery is created or manipulated outside the context of a live action shot in film making, commonly with the use of a computer.
+  - name: Autodesk Maya
+    match: autodesk maya|maya
+    anchor: maya
+    tooltip: A 3D computer graphics application
+    description: |
+      A 3D computer graphics application for modeling, animation and rendering. Commonly used in visual effects.
+    url: https://www.autodesk.com/products/maya/overview
+  - name: FlowLine
+    match: flowline
+    anchor: flowline
+    tooltip: Software to realisically simulate fluids
+    description: |
+      Software to realisically simulate and render fluids, fire and smoke for stunning visual effects.
+    url: http://www.flowlines.info
+  - name: C++
+    match: 'c\\+\\+'
+    anchor: cpp
+    tooltip: An unsafe but widespread general-purpose programming language
+    description: |
+      A general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".
+    url: http://www.cplusplus.com
+  - name: C
+    match: '\\bc\\b'
+    anchor: c
+    tooltip: A 50 year old general purpose and unsafe programming language
+    description: |
+      A general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, while a static type system prevents unintended operations.
+  - name: Python
+    match: python
+    anchor: python
+    tooltip: An interpreted, high-level, general-purpose programming language
+    description: |
+      An interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace.
+    url: https://www.python.org
+  - name: CMake
+    match: cmake
+    anchor: cmake
+    tooltip: A tool to manage the build process, commonly for C++ programs
+    description: |
+      A cross-platform free and open-source software tool for
+      managing the build process of software using a compiler-independent method.
+    url: https://cmake.org
+  - name: Backend & Frontend
+    match: backend|frontend
+    anchor: bf
+    tooltip: |
+      The separation of concerns between the presentation layer (front end), and the data access layer (back end)
+    description: |
+      The separation of concerns between the presentation layer (front end), and the data access layer (back end) of a piece of software. In the client–server model, the client is usually considered the front end and the server is usually considered the back end, even when some presentation work is actually done on the server itself.
+  - name: Test Driven Development
+    match: tdd|test-driven development
+    anchor: tdd
+    tooltip: A software development process that greatly improves quality
+    description: |
+      A software development process that relies on the repetition of a very short development cycle : requirements are turned into very specific test cases, then the software is improved so that the tests pass.
+  - name: Maya Embedded Language
+    match: '\\bmel\\b'
+    anchor: mel
+    tooltip: A very specific and simple scripting language for use in Autodesk Maya
+    description: |
+      A scripting language used to simplify tasks in Maya. Most tasks that can be achieved through Maya's GUI can be achieved with MEL, as well as certain tasks that are not available from the GUI.
+  - name: Graphical User Interface
+    match: '\\bGUI\\b'
+    anchor: gui
+    tooltip: A graphical user interface, as opposed to text-based interfaces
+    description: |
+      A form of user interface that allows users to interact with electronic devices through graphical icons and visual indicators such as secondary notation, instead of text-based user interfaces, typed command labels or text navigation.
+  - name: Previsualization
+    match: previsualization
+    anchor: previz
+    tooltip: The visualizing of complex scenes in a movie before filming
+    description: |
+     The visualizing of complex scenes in a movie before filming. It is also a concept in still photography. Previsualization is used to describe techniques such as storyboarding, either in the form of charcoal sketches or in digital technology, in the planning and conceptualization of movie scenes.
+  - name: Scripting Language
+    match: scripting
+    anchor: scripting
+    tooltip: A programming language for a special run-time environment that automates the execution of tasks
+    description: |
+      A programming language for a special run-time environment that automates the execution of tasks; the tasks could alternatively be executed one-by-one by a human operator.
+  - name: Perl
+    match: perl
+    anchor: perl
+    tooltip: Perl is a family of two high-level, general-purpose, interpreted, dynamic programming languages
+    description: |
+      Perl is a family of two high-level, general-purpose, interpreted, dynamic programming languages.
+  - name: Maya Application Programming Interface
+    match: Maya API
+    anchor: maya_api
+    tooltip: A way to interact with Autodesk Maya using its C++ programming interface
+    description: |
+      A way to interact with Maya using its C++ programming interface.
+  - name: Pipeline
+    match: '\\bpipeline\\b'
+    anchor: pipeline
+    tooltip: The ideal and optimal combination of processes that define how the final image in visual effects is produced
+    description: |
+      The ideal and optimal combination of processes that define how the final image in visual effects is produced.
+      It allows to apply the smallest amount of processing needed to regenerate an image as its input change to
+      satisfy client requests, and keeps track of all previously produced versions.
+  - name: TD
+    match: '\\bTD'
+    anchor: technical_director
+    tooltip: A person who aids in producing primarily visual effects using technical means
+    description: |
+      A person who aids in producing primarily visual effects using technical means. This commonly involves 
+      scripting in MEL and Python.
+  - name: Maya Development Environment
+    match: Maya Development Environment
+    anchor: maya_dev_environment
+    tooltip: A suite of tools and processes to aid developers to write tools for Autodesk Maya
+    description: |
+      A suite of tools and processes to aid developers to write tools for Autodesk Maya.
+  - name: Sabbatical
+    match: sabbatical
+    anchor: sabbatical
+    tooltip: A sabbatical is a rest or break from work
+    description: |
+      A sabbatical is a rest or break from work.
+  - name: Shotgun
+    match: shotgun
+    anchor: shotgun
+    tooltip: Project management and pipeline tools that help creative studios track, schedule, review, collaborate
+    description: |
+      Project management and pipeline tools that help creative studios track, schedule, review, collaborate, and manage their digital assets.
+    url: https://www.shotgunsoftware.com
+  - name: Information Technology
+    match: information technology
+    anchor: IT
+    tooltip: the use of computers to store, retrieve, transmit, and manipulate data,[1] or information, often in the context of a business or other enterprise
+    description: |
+      the use of computers to store, retrieve, transmit, and manipulate data,[1] or information, often in the context of a business or other enterprise
+  - name: Rust
+    match: rust
+    anchor: rust
+    tooltip: A language empowering everyone to build reliable and efficient software
+    description: A language empowering everyone to build reliable and efficient software.
+    url: https://www.rust-lang.org
+  - name: YouTube
+    match: youtube
+    anchor: youtube
+    tooltip: A popular video platform owned by Google
+    description: |
+      YouTube allows users to upload, view, rate, share, add to playlists, report, comment on videos, and subscribe to other users. It offers a wide variety of user-generated and corporate media videos.
+  - name: JavaScript
+    match: javascript
+    anchor: javascript
+    tooltip: A high-level, interpreted scripting language 
+    description: |
+      Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.[9] JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it,[10] and major web browsers have a dedicated JavaScript engine to execute it.
+    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  - name: Golang
+    match: golang
+    anchor: golang
+    tooltip: A high-level, interpreted scripting language
+    description: |
+      A statically typed, compiled programming language at Google. It is syntactically similar to C, but with memory safety, garbage collection, structural typing, and concurrency.
+    url: https://golang.org
+  - name: React
+    match: react
+    anchor: react
+    tooltip: A JavaScript library for building user interfaces
+    description: |
+      A JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.
+    url: https://reactjs.org
+  - name: Redux
+    match: redux
+    anchor: redux
+    tooltip: An open-source JavaScript library for managing application state
+    description: |
+      An open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. 
+    url: https://redux.js.org
+  - name: TypeScript
+    match: typescript
+    anchor: typescript
+    tooltip: An open-source programming language developed and maintained by Microsoft.
+    description: |
+      An open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language.
+    url: http://www.typescriptlang.org
+  - name: Kubernetes
+    match: kubernetes
+    anchor: kubernetes
+    tooltip: An open-source container-orchestration system for automating application deployment
+    description: |
+      An open-source container-orchestration system for automating application deployment, scaling, and management. It aims to provide a "platform for automating deployment, scaling, and operations of application containers across clusters of hosts".
+    url: https://kubernetes.io
+  - name: Docker Engine
+    match: docker engine
+    anchor: docker_engine
+    tooltip: An engine using OS-level virtualization to deliver software in packages called containers
+    description: |
+      An engine using OS-level virtualization to deliver software in packages called containers. Containers are lightweight and secure ways of running software on various platform, abstracting their differences.
+    url: https://www.docker.com
+  - name: Jenkins
+    match: jenkins
+    anchor: jenkins
+    tooltip: A free and open source automation server written in Java.
+    description: |
+      A free and open source automation server written in Java. Jenkins helps to automate the non-human part of the software development process, with continuous integration and facilitating technical aspects of continuous delivery.
+    url: https://jenkins.io
+  - name: Continuous Integration
+    match: 'continuous integration|\\bCI\\b'
+    anchor: CI
+    tooltip: The practice of merging all developers' working copies to a shared mainline several times a day
+    description: |
+      The practice of merging all developers' working copies to a shared mainline several times a day.
+  - name: Continuous Deployment
+    match: 'continuous deployment|\\bCD\\b'
+    anchor: CD
+    tooltip: A software engineering approach in which software functionalities are delivered frequently through automated deployments
+    description: |
+      A software engineering approach in which software functionalities are delivered frequently through automated deployments.
+  - name: GnuPG
+    match: gpg
+    anchor: gpg
+    tooltip: A hybrid-encryption software program
+    description: |
+      A hybrid-encryption software program because it uses a combination of conventional symmetric-key cryptography for speed, and public-key cryptography for ease of secure key exchange.
+    url: https://angular.io
+  - name: Pass
+    match: '\\bpass\\b'
+    anchor: pass
+    tooltip: Password management should be simple and follow Unix philosophy
+    description: |
+      Password management should be simple and follow Unix philosophy.
+    url: https://www.passwordstore.org
+  - name: Make
+    match: '\\bmake\\b'
+    anchor: make
+    tooltip: A build automation tool that automatically builds executable programs
+    description: |
+      A build automation tool that automatically builds executable programs and libraries from source code by reading files called Makefiles which specify how to derive the target program.
+  - name: Container
+    match: containers?(ization)?
+    anchor: container
+    tooltip: A running container image, executed by an engine
+    description: |
+      A container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+      When executed by an engine, an image is called a container.
+  - name: Extreme Programming
+    match: '\\bxp\\b'
+    anchor: xp
+    tooltip: A software development methodology which is intended to improve software quality
+    description: |
+      A software development methodology which is intended to improve software quality and responsiveness to changing customer requirements. As a type of agile software development,[1][2][3] it advocates frequent "releases" in short development cycles, which is intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.
+  - name: Pair Programming
+    match: pair programming
+    anchor: pair_programming
+    tooltip: An agile software development technique in which two programmers work together at one workstation
+    description: |
+      An agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator,[1] reviews each line of code as it is typed in. The two programmers switch roles frequently.
+  - name: Offline-First Applications
+    match: offline-first
+    anchor: offline_first
+    tooltip: Apps that support a seamless experience when a user transitions between an online to offline
+    description: |
+      Apps that support a seamless experience when a user transitions between an online to offline state without compromising the experience.
+  - name: Angular JS
+    match: AngularJS
+    anchor: angularjs
+    tooltip: A JavaScript-based open-source front-end web framework
+    description: |
+      A JavaScript-based open-source front-end web framework to address many of the challenges encountered in developing single-page applications.
+    url: https://angular.io
+  - name: Java
+    match: '\\bjava\\b'
+    anchor: java
+    tooltip: A general-purpose programming language that is class-based and object-oriented
+    description: |
+      A general-purpose programming language that is class-based and object-oriented.
+    url: http://oracle.com/java/
+  - name: Spring
+    match: '\\bspring\\b'
+    anchor: spring_framework
+    tooltip: An application framework and inversion of control container for the Java platform
+    description: |
+      An application framework and inversion of control container for the Java platform.
+    url: https://spring.io
+  - name: Mongo Database
+    match: mongodb
+    anchor: mongodb
+    tooltip: A general purpose, document-based, distributed database built for modern application developers
+    description: |
+      A general purpose, document-based, distributed database built for modern application developers and for the cloud era. No database is more productive to use.
+    url: https://www.mongodb.com
+  - name: Ansible
+    match: ansible
+    anchor: ansible
+    tooltip: An open-source software provisioning, configuration management, and application-deployment tool
+    description: |
+       An open-source software provisioning, configuration management, and application-deployment tool. It includes its own declarative language to describe system configuration.
+    url: https://www.ansible.com
+  - name: Amazon Web Services
+    match: aws
+    anchor: aws
+    tooltip: An open-source software provisioning, configuration management, and application-deployment tool
+    description: |
+        A subsidiary of Amazon that provides on-demand cloud computing platforms to individuals, companies, and governments, on a metered pay-as-you-go basis.
+    url: https://aws.amazon.com

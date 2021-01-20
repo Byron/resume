@@ -1,0 +1,129 @@
+
+{% assign company = companies[item.company] %}
+{% assign kind =  'single' %}
+{% if item.kind %}
+    {% assign kind = item.kind %}
+{% endif %}
+<li class="result-card {{kind}}">
+    {% assign image_url = null %}
+    {% if company.image_url %}
+    {% assign image_url = company.image_url %}
+    {% endif %}
+    {% if kind contains 'group-leader' %}
+        <a target="_blank" href="{{company.url}}" class="experience-group-header__url" title="{{company.name}}">
+            <div class="experience-group-header">
+                <div class="experience-group-header__image-container">
+                    <img class="entity-image entity-image--company entity-image--square-4 experience-group-header__image {% if image_url == null %}hidden{% endif %}" alt="{{company.name}}" src="{% if image_url %} {{image_url}} {% endif %}"></div>
+                <div class="experience-group-header__content">
+                    <h4 class="experience-group-header__company">{{company.name}}</h4>
+                    {% if item.date_range.total_duration %}
+                        {% assign proof_total = null %}
+                        {% if item.proof and item.proof.total %}
+                            {% assign proof_total = item.proof.total %}
+                        {% endif %}
+                        {% if proof_total %}
+                        <a target="_blank" class="{{proof_total.kind}} proof" href="{{proof_total.url}}">
+                            {% if proof_total.tooltip %}
+                                <span class="tooltip">{{proof_total.tooltip | escape}}</span>
+                            {% endif %}
+                        {% endif %}
+                        <p class="experience-group-header__duration">{{item.date_range.total_duration}}</p>
+                        {% if proof_total %}
+                            </a>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+        </a> 
+    {% elsif kind == 'single' %}
+        <a target="_blank" {% if company.url %}class="result-card__full-card-link" href="{{company.url}}"{% endif %}>
+            <span class="screen-reader-text">{{item.position}}</span>
+            <img class="{% if image_url == null %}hidden{% endif %} entity-image entity-image--square-4 result-card__image"
+                alt="{{company.name}}" src="{% if image_url %} {{image_url}} {% endif %}">
+        </a>
+    {% endif %}
+    {% assign result_card_classes = '' %}
+    {% if kind contains 'group-leader' or kind contains 'group-member' %}
+        {% assign result_card_classes = 'left-border-with-dot' %}
+    {% endif %}
+    <div class="result-card__contents {{result_card_classes}}">
+        <h3 class="result-card__title">{{item.position}}</h3>
+        {% if kind == 'single' or kind contains 'company-name' %}
+            <h4 class="result-card__subtitle">{{company.name}}</h4>
+        {% endif %}
+        <div class="result-card__meta">
+            <p class="volunteering__item volunteering__item--duration">
+                {% assign proof_from = null %}
+                {% assign proof_to = null %}
+                {% assign proof_all = null %}
+
+                {% if item.proof %}
+                {% if item.proof.from %}{% assign proof_from = item.proof.from %}{% endif %}
+                {% if item.proof.to %}{% assign proof_to = item.proof.to %}{% endif %}
+                {% if item.proof.all %}{% assign proof_all = item.proof.all %}{% endif %}
+                {% endif %}
+                <span class="date-range">
+                    {% if proof_all %}
+                    <a target="_blank" class="{{proof_all.kind}} proof" href="{{proof_all.url}}">
+                        {% if proof_all.tooltip %}
+                            <span class="tooltip">{{proof_all.tooltip | escape}}</span>
+                        {% endif %}
+                    {% endif %}
+                    {% if proof_from %}
+                    <a target="_blank" class="{{proof_from.kind}} proof" href="{{proof_from.url}}">
+                        <span class="tooltip">{{proof_from.tooltip | escape}}</span>
+                    {% endif %}
+                        <time class="date-range__start-date">{{item.date_range.from}}</time>
+                    {% if proof_from %}
+                    </a>
+                    {% endif %}
+                    {% if item.date_range.to %}
+                        –
+                        {% if proof_to %}
+                            <a target="_blank" class="{{proof_to.kind}} proof" href="{{proof_to.url}}">
+                            <span class="tooltip">{{proof_to.tooltip | escape}}</span>
+                        {% endif %}
+                        <time class="date-range__end-date">{{item.date_range.to}}</time>
+                        {% if proof_to %}
+                            </a>
+                        {% endif %}
+                    {% endif %}
+                    {% if proof_all %}
+                        </a>
+                    {% endif %}
+
+                    {% if item.date_range.duration %}
+                        <span class="date-range__duration">{{item.date_range.duration}}</span>
+                    {% endif %}
+                    {% if item.location %}
+                        <span class="date-range__duration">{{item.location}}</span>
+                    {% endif %}
+                </span>
+            </p>
+            {% if company.cause %}
+            <p class="volunteering__item volunteering__item--cause">{{company.cause}}</p>
+            {% endif %}
+            {% if item.description %}
+                <div class="show-more-less-text text-for-glossary-links">
+                    {{item.description | escape | newline_to_br }}
+                </div>
+            {% endif %}
+        </div>
+
+    {% if item.sections and item.sections != empty %}
+        {% for entry in item.sections %}
+        <section class="{{entry.name}} pp-section">
+            <header class="pp-section__header">
+                <h2 class="pp-section__heading">{{entry.title}}</h2>
+            </header>
+            <ul>
+                {% for item in entry.positions %}
+                {% include 'project.html' %}
+                {% endfor %}
+            </ul>
+        </section>
+        {% endfor %}
+    {% endif %}
+
+    </div>
+</li>

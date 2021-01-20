@@ -1,0 +1,390 @@
+sections:
+  - name: documents
+    title: Documents
+    positions:
+    - position: Digital Profiles
+      date_range:
+        from: All of his digital profiles, validated and on one page
+      proof:
+        all:
+          kind: document
+          url: https://keybase.io/byronbates
+      company: keybase
+
+
+  - name: experience
+    title: Professional Experience
+    positions:
+    - position: Senior Developer Consultant
+      location: Hamburg, Germany
+      date_range:
+        from: Aug 2015
+        to: Aug 2019
+        duration: 4 years 1 month
+      description: |
+        He is a seasoned C, C++ and Python programmer with additional experience more recent programming languages such as JavaScript, Golang and Rust. Safety and maintainability are his highest goals when designing and implementing quality software.
+      company: thoughtworks
+      sections:
+      - name: oss-projects
+        title: Software Projects
+        positions:
+        - position: Disk Usage Analyzer
+          date_range:
+            from: Jun 2019
+            to: Aug 2019
+          proof:
+            all:
+              kind: oss-project
+              url: https://github.com/Byron/dua-cli
+              tooltip: An open source software project written in Rust
+          description: | 
+            A tool to conveniently learn about the disk usage of directories, fast!
+          company: open-source-developer
+        - position: Expend
+          date_range:
+            from: Oct 2018
+            to: Dec 2018
+          proof:
+            all:
+              kind: oss-project
+              url: https://github.com/thoughtworks/expend-rs
+              tooltip: An open source software project written in Rust
+          description: | 
+            Internal application to submit certain expenses to ThoughtWorks' systems
+          company: open-source-developer
+        - position: Share Secrets Safely
+          date_range:
+            from: Dec 2017
+            to: May 2018
+          proof:
+            all:
+              kind: oss-project
+              url: https://github.com/share-secrets-safely/cli
+              tooltip: An open source software project written in Rust
+          description: | 
+            Share secrets within teams to avoid plain-text secrets from day one.
+          company: open-source-developer
+      - name: projects
+        title: Consulting Projects
+        positions:
+        - position: Trainer
+          date_range:
+            from: Apr 2019
+            to: Aug 2019
+          description: | 
+            ThoughtWorks University is an intensive, hands-on experience, where graduates and new-starters learn how to build working software from week one. It’s all about getting them ready to take on the challenges our clients face with confidence, and setting them up with a ready-made global network of friends and mentors.
+          kind: group-member company-name
+          company: tw-university
+        - position: Co-Delivery and Enablement
+          date_range:
+            from: Aug 2018
+            to: Feb 2019
+          description: | 
+            Sebastian joined as a frontend developer initially using React on JavaScript. Besides using every opportunity to spread knowledge about frontend development, he transformed the code-base to use Redux for state management to increase the ease of use. As a final step in the pursuit of maintainability he guided the partial transformation of the codebase to Typescript, making the codebase even more accessible.
+          kind: group-member company-name
+          company: tw-car-rental
+        - position: Platform Migration
+          date_range:
+            from: Mar 2018
+            to: Jul 2018
+          description: | 
+            Sebastian helped to shape next generation services centered around Kubernetes, and implemented tooling in Golang to automate the transition of existing clients. He ran workshops to train teams on the new tooling.
+            On a secondary line of work, Sebastian was responsible for bringing to live a proof of concept application to help various departments with automating their offerings.
+          kind: group-member company-name
+          company: tw-cash&carry
+        - position: Service Platform
+          date_range:
+            from: May 2017
+            to: Feb 2018
+          description: | 
+            Sebastian helped with the implementation of a service for funneling deployments to Kubernetes. Technology used was Docker Engine, Kubernetes, Golang and Jenkins for CI/CD.
+            Some of the work involved adding features to a React application.
+          kind: group-member company-name
+          company: tw-cash&carry
+        - position: Payments and Invoicing App
+          date_range:
+            from: Dec 2016
+            to: May 2017
+          description: | 
+            Sebastian was involved in the project for several months and was in charge of providing a simplified solution for storing confidential sets of data, and rolled it out to various teams and projects.
+            Technology used was GPG, Pass, and Make. His passion for this topic went as far as solving this problem once more using with open-source software in the form of 'Share Secrets Safely' written in Rust.
+          kind: group-member company-name
+          company: tw-cash&carry
+        - position: Truck Delivery App
+          date_range:
+            from: Feb 2016
+            to: Nov 2016
+          description: | 
+            Sebastian worked as a consultant developer with the client for several months on site. He helped producing a mobile application sporting a React frontend and Java/Spring backend that integrated with the Open-Stack Cloud environment of the client’s infrastructure.
+            Technical concepts like Docker Engine Containerization and CI/CD and XP methodologies like TDD and Pair Programming played a major role throughout the entire development and maintenance effort.
+          kind: group-member with-company-name
+          company: tw-cash&carry
+        - position: Quality Assurance App
+          date_range:
+            from: Aug 2015
+            to: Feb 2016
+          description: | 
+            Sebastian was involved in wrapping up an offline-first web-application to help managing products and their quality. This work included adjusting the AngularJS-based frontend, as well as the Java/Spring based backend, the MongoDB, Golang, continuous integration, and finally deployment using Ansible on AWS.
+          kind: group-trailer with-company-name
+          company: tw-coffee-retailer
+    - position: Software Engineer
+      location: Munich, Germany
+      proof:
+        from:
+          kind: project
+          url: https://www.youtube.com/channel/UCkn47As_FHFviIqEVAXx1vw
+          tooltip: His YouTube channel
+        to:
+          kind: project
+          url: https://crates.io/users/Byron?sort=downloads
+          tooltip: His presence in the Rust crate repository, with his top contributions listed by downloads.
+      date_range:
+        from: Feb 2014
+        to: Jul 2015
+        duration: 1 year 6 months
+      sections:
+      - name: oss-projects
+        title: Software Projects
+        positions:
+        - position: Google APIs in Rust
+          date_range:
+            from: Mar 2015
+            to: Jul 2017
+          proof:
+            all:
+              kind: oss-project
+              url: https://github.com/Byron/google-apis-rs
+              tooltip: An open source software project written in Rust and Python
+          description: | 
+            A binding and CLI generator for all Google APIs, allowing to communicate to all Google services using Rust.
+          company: open-source-developer
+        - position: Go Data Integrity
+          date_range:
+            from: Jul 2014
+            to: Aug 2014
+          proof:
+            all:
+              kind: oss-project
+              url: https://github.com/Byron/godi
+              tooltip: An open source software project written in Go-Lang
+          description: | 
+            Tool to verify data integrity with maximised performance.
+          company: open-source-developer-golang
+        - position: BCore
+          date_range:
+            from: Apr 2014
+          proof:
+            from:
+              kind: oss-project
+              url: https://github.com/Byron/bcore
+              tooltip: An open source software project written in Python
+          description: | 
+            A powerful application framework built to integrate, not separate.
+          company: open-source-developer-python
+      description: |
+        While recovering from the previous experience, he intensively studied Rust and shared his findings on his YouTube channel.
+      company: freelance
+    - position: Head of Technology
+      location: Munich, Germany
+      date_range:
+        from: Mar 2013
+        to: Jan 2014
+        duration: 11 months
+        total_duration: 1 year 7 months
+      description: |
+        Guide information technology infrastructure development and to support the company's requirement.
+        Finished projects during that time include
+        a universal development and software distribution environment for TDs, developers and system administrators,
+        a Centos based TRIXTER linux distribution in multiple variants, including netboot capability,
+        a ZFS management system to deal with multi-server data hosting, snapshots and backups.
+      company: trixter
+      kind: group-leader
+    - position: Senior Pipeline Consultant
+      location: Munich, Germany
+      date_range:
+        from: Oct 2012
+        to: Feb 2013
+        duration: 5 months
+      description: |
+        Help designing and implementing next-generation pipeline software.
+      company: trixter
+      kind: group-member
+    - position: Pipeline Developer
+      location: Munich, Germany
+      date_range:
+        from: Jul 2012
+        to: Sep 2012
+        duration: 3 months
+      description: |
+        Devise a concept for an entirely new pipeline and help to bring it into reality.
+      company: trixter
+      kind: group-trailer
+    - position: Pipeline Engineer
+      location: Berlin, Germany
+      date_range:
+        from: Feb 2012
+        to: Jul 2012
+        duration: 6 months
+      description: |
+        Integrate software into Shotgun and automate workflows.
+      company: omstudios
+      sections:
+      - name: oss-projects
+        title: Software Projects
+        positions:
+        - position: B-Suite
+          date_range:
+            from: Jun 2012
+            to: Jul 2012
+          proof:
+            all:
+              kind: oss-project
+              url: https://github.com/Byron/bsuite
+              tooltip: An open source software project written in Python
+          description: | 
+            The B-Suite (pronounced Be Sweet) is a conglomerate of Maya plugins as a playground for experimenting with algorithms and technology, while aiming for highest quality. Additionally there are tests, code- and end-user documentation.
+          company: open-source-developer-c++
+    - position: FlowLine Developer
+      location: Munich, Germany
+      date_range:
+        from: Aug 2011 
+        to: Jun 2012
+        duration: 11 months
+        total_duration: 3 years 1 month
+      description: |
+        Help developing and maintaining FlowLine fluid simulation software.
+      kind: group-leader
+      company: flowline
+    - position: FlowLine Maya Maintainer
+      location: Berlin, Germany
+      date_range:
+        from: Jun 2009 
+        to: Jul 2011
+        duration: 2 years 2 months
+      kind: group-trailer
+      description: |
+        General maintenance of the FlowLine-Maya port.
+      company: flowline
+      sections:
+      - name: oss-projects
+        title: Software Projects
+        positions:
+        - position: GitPython
+          date_range:
+            from: Oct 2009
+            to: Jun 2010
+          proof:
+            all:
+              kind: oss-project
+              url: https://github.com/gitpython-developers/GitPython
+              tooltip: An open source software project written in Python
+          description: | 
+            GitPython is a python library used to interact with git repositories, high-level like git-porcelain, or low-level like git-plumbing.
+          company: open-source-developer-python
+    - position: Pipeline Supervisor
+      location: Stockholm, Sweden
+      date_range:
+        from: Jun 2008
+        to: May 2009
+        duration: 1 year
+      description: |
+        Design and implementation of a python based 3D movie production pipeline.
+      company: whiteshark
+    - position: Pipeline Engineer
+      location: Toulouse, France
+      date_range:
+        from: Mar 2008
+        to: Jun 2008
+        duration: 4 months
+      description: |
+        Doing independent software and pipeline development and a sabbatical traveling through europe.
+      company: freelance
+    - position: Pipeline Supervisor
+      location: Hamburg, Germany
+      date_range:
+        from: Jan 2007
+        to: Feb 2008
+        duration: 1 year 2 months
+      description: |
+        Design and setup the complete working infrastructure, involving the incorporation of 3D software products into the production managment workflow.
+        Project was: "Jasper: Journey to the End of the World".
+      company: tnt
+    - position: Pipeline TD
+      location: Munich, Germany
+      date_range:
+        from: Mar 2006
+        to: Dec 2006
+        duration: 10 months
+      description: |
+        Creation and maintenance of a Maya development environment, Maya tool programming, and FlowLine Maya Support.
+        Project was: "Lissi und der wilde Kaiser".
+      company: scanline
+    - position: Pipeline TD
+      location: Berlin, Germany
+      date_range:
+        from: Sep 2004
+        to: Feb 2006
+        duration: 1 year 6 months
+      description: |
+        Applied as TD, worked 8 month as previsualization artist, and finally helped doing pipeline work, involving MEL scripting, Perl and Maya API. The project was: "Happily N'Ever After".
+      company: bfc
+    - position: Programmer
+      location: Berlin, Germany
+      proof:
+        from:
+          kind: project
+          url: https://github.com/byron/bsuite#byrons-poly-tools
+          tooltip: The code was uploaded years after its creation, using GitHub as an archive
+        to:
+          kind: project
+          url: http://byron.github.io/bsuite/bpt/index.html
+          tooltip: The old website I used to describe the product
+      date_range:
+        from: May 2003
+        to: Aug 2004
+        duration: 1 year 4 months
+      description: |
+        Creation and development of ByronsPolyTools - a modeling plugin for Maya
+        using C++ and Cmake.
+        It was sold for a little more than a year to more than 350 clients, a moderate success but enough to keep Sebastian going.
+      company: freelance
+
+
+  - name: volunteering
+    title: Volunteering Experience
+    positions:
+    - position: Teacher and Tutor
+      location: Munich, Germany
+      date_range:
+        from: Jan 2019
+      description: |
+        Teach and tutor folks to help them get started in the world of 'digital'.
+      company: redi
+    - position: Caregiver
+      location: Berlin, Germany
+      date_range:
+        from: August 2002
+        to: May 2003
+        duration: 10 months
+      description: |
+        Take care of the elderly as part of fulfilling duties during civil service.
+      company: twh
+
+
+  - name: education
+    title: Education
+    positions:
+    - position: Pupil
+      location: Bernau b. Berlin, Germany
+      date_range:
+        from: Aug 1995
+        to: Aug 2002
+        duration: 7 years
+      company: highschool
+    - position: Pupil
+      location: Bernau b. Berlin, Germany
+      date_range:
+        from: Aug 1989
+        to: Aug 1995
+        duration: 6 years
+      company: primaryschool

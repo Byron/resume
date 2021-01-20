@@ -1,0 +1,12 @@
+{% if entry.positions != empty %}
+<section class="{{entry.name}} pp-section">
+    <header class="pp-section__header">
+        <h2 class="pp-section__heading">{{entry.title}}</h2>
+    </header>
+    <ul>
+        {% for item in entry.positions %}
+        {% include 'project.html' %}
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
