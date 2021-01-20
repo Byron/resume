@@ -2,11 +2,11 @@ person:
   name: Sebastian Thiel
   occupation: Software Engineer
   image_url: ./assets/profile.jpeg
-  relationship_state: single
-  location: Hamburg, Germany
+  relationship_state: married, one child
+  location: Xi'an, China
   summary: |
     Sebastian is an independent, self-taught Open-Source Software Engineer with old roots in the visual effects industry. During that time, he implemented and supported the Autodesk Maya integration of Scanline's academy awarded FlowLine Fluid Simulation Software.
-    
+
     More recently, he worked in agile teams to build the right products iteratively and on the full stack ranging from platform over backend to frontend.
 
     He believes in test-driven development, and aims at producing highly maintainable, long-lasting and secure code. Workflow automation, may it be his own or those of others, are among his greatest strengths. Providing best support for his work environment is among his highest goals.
@@ -37,11 +37,11 @@ companies:
     image_url: ./assets/bfc.jpg
   scanline:
     name: CA Scanline
-    url:  https://www.scanlinevfx.com
+    url: https://www.scanlinevfx.com
     image_url: ./assets/any-company.png
   tnt:
     name: Toons'n'Tales
-    url:  https://www.linkedin.com/search/results/all/?keywords=Toons%20%27N%27%20Tales%20Filmproduktion%20GmbH
+    url: https://www.linkedin.com/search/results/all/?keywords=Toons%20%27N%27%20Tales%20Filmproduktion%20GmbH
     image_url: ./assets/tnt.jpg
   redi:
     name: ReDI School of Digital Integration
@@ -66,11 +66,11 @@ companies:
     url: https://www.trixter.de
     image_url: ./assets/trixter.png
   thoughtworks:
-    name: ThoughtWorks 
+    name: ThoughtWorks
     url: https://www.thoughtworks.com
     image_url: ./assets/thoughtworks.png
   justice-department:
-    name: German Department of Justice 
+    name: German Department of Justice
     image_url: ./assets/justiz_logo_de.png
     url: http://bundesjustizamt.de
   keybase:
@@ -91,10 +91,12 @@ companies:
     name: STUDIOLINE Photography
     url: https://online-world.studioline.de
     image_url: ./assets/studioline.png
+  tw-small-business-support:
+    name: Australian Software Company
   tw-cash&carry:
     name: Major Cash & Carry Logistics Company
   tw-coffee-retailer:
-    name:  German Chain of Coffee Retailers
+    name: German Chain of Coffee Retailers
   tw-car-rental:
     name: European Car Rental Company
   tw-university:
@@ -107,6 +109,12 @@ languages:
     level: Full professional proficiency
 
 glossary:
+  - name: Docker
+    match: Docker
+    anchor: docker
+    tooltip: Lightweight process isolation based on linux containers.
+    description: |
+      A tool designed to simplify the creation, deployment, and running of applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and deploy it as one package.
   - name: Visual Effects
     match: visual effects
     anchor: visual-effects
@@ -185,7 +193,7 @@ glossary:
     anchor: previz
     tooltip: The visualizing of complex scenes in a movie before filming
     description: |
-     The visualizing of complex scenes in a movie before filming. It is also a concept in still photography. Previsualization is used to describe techniques such as storyboarding, either in the form of charcoal sketches or in digital technology, in the planning and conceptualization of movie scenes.
+      The visualizing of complex scenes in a movie before filming. It is also a concept in still photography. Previsualization is used to describe techniques such as storyboarding, either in the form of charcoal sketches or in digital technology, in the planning and conceptualization of movie scenes.
   - name: Scripting Language
     match: scripting
     anchor: scripting
@@ -259,7 +267,7 @@ glossary:
   - name: JavaScript
     match: javascript
     anchor: javascript
-    tooltip: A high-level, interpreted scripting language 
+    tooltip: A high-level, interpreted scripting language
     description: |
       Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.[9] JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it,[10] and major web browsers have a dedicated JavaScript engine to execute it.
     url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
@@ -282,7 +290,7 @@ glossary:
     anchor: redux
     tooltip: An open-source JavaScript library for managing application state
     description: |
-      An open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. 
+      An open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
     url: https://redux.js.org
   - name: TypeScript
     match: typescript
@@ -402,12 +410,12 @@ glossary:
     anchor: ansible
     tooltip: An open-source software provisioning, configuration management, and application-deployment tool
     description: |
-       An open-source software provisioning, configuration management, and application-deployment tool. It includes its own declarative language to describe system configuration.
+      An open-source software provisioning, configuration management, and application-deployment tool. It includes its own declarative language to describe system configuration.
     url: https://www.ansible.com
   - name: Amazon Web Services
     match: aws
     anchor: aws
     tooltip: An open-source software provisioning, configuration management, and application-deployment tool
     description: |
-        A subsidiary of Amazon that provides on-demand cloud computing platforms to individuals, companies, and governments, on a metered pay-as-you-go basis.
+      A subsidiary of Amazon that provides on-demand cloud computing platforms to individuals, companies, and governments, on a metered pay-as-you-go basis.
     url: https://aws.amazon.com
