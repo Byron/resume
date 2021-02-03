@@ -428,21 +428,3 @@ sections:
         description: |
           Take care of the elderly as part of fulfilling duties during civil service.
         company: twh
-
-  - name: education
-    title: Education
-    positions:
-      - position: Pupil
-        location: Bernau b. Berlin, Germany
-        date_range:
-          from: Aug 1995
-          to: Aug 2002
-          duration: 7 years
-        company: highschool
-      - position: Pupil
-        location: Bernau b. Berlin, Germany
-        date_range:
-          from: Aug 1989
-          to: Aug 1995
-          duration: 6 years
-        company: primaryschool
