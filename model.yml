@@ -19,12 +19,26 @@ sections:
         date_range:
           from: Jun 2020
           to: now
-          duration: 8 months (part-time)
+          duration: 8 months
         description: |
           Sebastian provides services as software developer and technical analyst.
         company: freelance
         sections:
-        sections:
+          - name: oss-projects
+            title: Software Projects
+            positions:
+              - position: Gitoxide Core Developer
+                date_range:
+                  from: Mar 2020
+                  to: now
+                proof:
+                  all:
+                    kind: oss-project
+                    url: https://github.com/Byron/gitoxide
+                    tooltip: Git in Rust
+                description: |
+                  An idiomatic, lean, fast & safe pure Rust implementation of Git
+                company: open-source-developer
           - name: projects
             title: Analysis and Software Development
             positions:
@@ -37,21 +51,6 @@ sections:
 
                   The techstack was TypeScript, along with supporting infrastructure scripts to power GitHub Actions for CI and CD onto Azure.
                 company: omstudios
-          - name: oss-projects
-            title: Personal Software Projects
-            positions:
-              - position: Gitoxide
-                date_range:
-                  from: Mar 2020
-                  to: now
-                proof:
-                  all:
-                    kind: oss-project
-                    url: https://github.com/Byron/gitoxide
-                    tooltip: Git in Rust
-                description: |
-                  An idiomatic, lean, fast & safe pure Rust implementation of Git
-                company: open-source-developer
       - position: Senior Developer Consultant
         location: Xi'an, China
         date_range:
